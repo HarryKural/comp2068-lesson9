@@ -9,10 +9,13 @@ module.exports = {
     facebook: {
         clientID: '1800952463562177',
         clientSecret: '87b5ae28226631f2a955f32b5a70b38f',
-        callbackURL: 'http://localhost:3000/facebook/callback'
+        callbackURL: 'https://comp2068-facebook.herokuapp.com/facebook/callback' /* 'http://localhost:3000/facebook/callback' */
     },
     google: {
         clientID: '88822045338-ueelmta7rk2uhntkqqqrophqpud7i36e.apps.googleusercontent.com',
         clientSecret: '5hHo6yylZOv0VsUKIvEOdpKX',
-        callbackURL: 'http://localhost:3000/google/callback'
+        callbackURL: 'https://comp2068-facebook.herokuapp.com/google/callback' /* 'http://localhost:3000/google/callback' */
     }};
+
+// https://comp2068-facebook.herokuapp.com/facebook/callback
+// https://comp2068-facebook.herokuapp.com/google/callback
